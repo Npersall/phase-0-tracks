@@ -1,0 +1,57 @@
+#contact-info p	{
+	font-size:.8em;
+	background-color: #e9e5dc;
+}
+
+.accomplishments li {
+	font-size:.8em;
+
+}
+
+/* QUESTION 1: "Cascading" means that the styles are read and applied in the order that they are listed
+Priority goes to inline style sheet
+Any rule defined by <style> overrules any external 
+style sheet
+
+any rule in the external style take lowest priority
+*/ 
+
+
+
+
+/*Question 2: Pseudo-selector is a key word added to 
+selectors to allow for a special state of the element to be selected*/
+
+
+/* Question 3*/
+
+ul >li:first-child{
+
+color:green; 
+}
+
+
+/*Below is the coding to show how you would select with the code above to select
+the first children of the unordered list while not selecting the ordered list*/
+
+/* <section class="job">
+      <h3>Cone Dipper, Imogen's Ice Cream Shack</h3>
+      <ul class="accomplishments">
+        <li>Dipped ice cream cones in flavored wax</li>
+        <li class="featured">Was employee of the month 12 times a year</li>
+        <li>Was the only employee</li>
+      </ul>
+    </section>
+  </section>
+
+  <section id="volunteer-experience">
+    <h2 class="experience-category">Volunteer Experience</h1>
+    <section class="volunteer-gig">
+      <h3>Little League Coach</h3>
+      <ol>
+        <li>Led team of middle-schoolers to intense championship triumph</li>
+        <li>Drove bus to Imogen's Ice Cream Shack after games</li>
+      </ol>
+    </section>
+  </section>
+*/
