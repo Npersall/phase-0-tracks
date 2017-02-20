@@ -1,0 +1,37 @@
+Elevator algorithm:
+move on to elevator
+
+locate control panel on left side of door
+If control panel is not on left side of door move to right
+
+end
+
+-select floor needed by pushing button of floor marked with a number
+
+if floor needed is current floor, leave elevator
+-otherwise choose floor
+
+-wait for elevator to stop moving,doors to open 
+-step left and leave elevator
+end
+
+
+How to start a car: 
+    Move to the front left side of vehicle
+
+    pull on handle and swing open door
+    if locked, use remote to unlock.
+    otherwise, proceed to sit down in seat
+
+    put your foot on left pedal and hold
+
+    with your right hand insert key into ignition
+    turn key right until car starts up
+    let go of key
+end
+
+
+
+
+
+
