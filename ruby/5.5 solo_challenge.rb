@@ -49,8 +49,7 @@ def change_consonant(name)
 end
 
 info = {
-  first_name: [],
-  spy_name: []
+
 }
 
 
@@ -64,15 +63,14 @@ until user_input
   if full_name == "done"
     user_input = true
   else
-  info[:first_name].push(full_name)
-  
-  change_consonant(full_name)
-  info[:spy_name].push(change_consonant(full_name))
+    
+    info[full_name] = change_consonant(full_name)
+ 
   end
 
 end
 info.each do |first_name, mod_name|
-    puts "#{info[:first_name]} is actually #{info[:spy_name]} "
+    puts "#{first_name} is actually #{mod_name}"
 
 end
 
