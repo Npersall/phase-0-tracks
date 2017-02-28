@@ -3,10 +3,10 @@
 # Method to create a list
 def list_creation(str)
 
- # list = {}
- # str.split(' ').each { |item| list[item] = 1 }
+ list = {}
+ str.split(' ').each { |item| list[item] = 1 }
 
- #  list
+  list
 end
 
 string_list = "carrots apples cereal pizza steak"
@@ -81,6 +81,16 @@ printing_list(grocery)
 # output: printed version of hash
 
 
+
+
+
+
+
+
+
+
+
+
 # What did you learn about pseudo-code from working on this challenge? 
   # I learned that there is a lot more that can be done with pseudo-code then what I have been doing.
    #It was a slight wake up call to areas of improvement
@@ -93,10 +103,16 @@ printing_list(grocery)
 
 # What does a method return?
 # a method returns whatever you placed as an argument when calling it
-What kind of things can you pass into methods as arguments?
+# What kind of things can you pass into methods as arguments?
+# you can pass in hash arguments, array arguments, keyword arguments and positional arguments.
 
-How can you pass information between methods?
-What concepts were solidified in this challenge, and what concepts are still confusing?
+# How can you pass information between methods?
+# this is done by calling the method with your variable as an argument
+# What concepts were solidified in this challenge, and what concepts are still confusing?
+
+# the concept of .each do |x| was more solidified due to the fact i wasn't able to find any good material that properly explained it.
+# The concepts in this challenge are not necessarily confusing, it is more the issue of getting the proper syntax down that tends to confuse me.
+# its knowing the proper coding to get to the next steps, to do what i want it to do that is sometimes the struggle. 
 
 
 
