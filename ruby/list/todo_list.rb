@@ -15,6 +15,3 @@ end
     @todo_list[index]
 end
 end
-
-# list = TodoList.new(["do the dishes","mow the lawn "])
-# list.get_items
