@@ -38,7 +38,8 @@ class VirusPredictor
     end
 
     print "#{@state} will lose #{number_of_deaths} people in this outbreak"
-
+ 
+ 
   end
 
   def speed_of_spread(population_density, state) #in months
