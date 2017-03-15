@@ -90,8 +90,7 @@ function finding_longest_word(array) {
 // get the keys for all of 
 
 
-var someObject = {"a": 3, "b": 2};
-var anotherObject = {"a": 1, "d": 13};
+
 
 
 function pair_checker(obj_1, obj_2) {
@@ -106,8 +105,10 @@ function pair_checker(obj_1, obj_2) {
     return false;
 }
 
-console.log(pair_checker(someObject,anotherObject));
+var someObject = {"a": 3, "b": 2};
+var anotherObject = {"a": 1, "d": 13};
 
+console.log(pair_checker(someObject,anotherObject));
 
 var word = finding_longest_word(["long phrase","longest phrase","longer phrase"]);
 
