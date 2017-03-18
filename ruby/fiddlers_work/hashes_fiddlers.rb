@@ -18,7 +18,6 @@ search_array(array, 7)
 
 
 
-
 def fib (x)
   array = []
   first_index = 0
