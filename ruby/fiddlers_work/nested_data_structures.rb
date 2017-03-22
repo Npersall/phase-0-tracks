@@ -20,7 +20,7 @@ school = {
    room_contents: [
      "textbook",
      "notebook",
-     "pencils",
+     "backpack",
      "bag lunch"
      ]
  },
