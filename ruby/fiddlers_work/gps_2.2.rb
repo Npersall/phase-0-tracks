@@ -82,7 +82,7 @@ print_pretty(grocery_list)
 #What does a method return? a method returns the last thing run. 
 
 #What kind of things can you pass into methods as arguments?
-    #you can pass others methods, strings, integers and boolean
+    #you can pass others methods, strings, integers and boolean 
 
 #How can you pass information between methods?
     #to pass information between methods, you can start by passing #it into a method with your driver code through the arguments that are attached to the methods. once that information is the method you can call that information to another method.
