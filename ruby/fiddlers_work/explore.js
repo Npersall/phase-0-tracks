@@ -11,7 +11,7 @@
 
 
 
- // "hello"  = "olleh"
+ // "hello"  = "olleh" 
 // ask for input
 // for each letter
 // add it to the string
