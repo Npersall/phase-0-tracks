@@ -1,0 +1,25 @@
+sqlite> SELECT * FROM tire_supplier;
+1|Brigestone
+2|Falken
+3|Goodyear
+4|Pirelli
+5|Michelin
+
+
+
+sqlite> UPDATE race_team SET crew_size=19 where name="Flying Lizard";
+sqlite> SELECT * FROM race_team, tire_supplier WHERE race_team.supplier_id = tire_supplier.id;
+
+1|Flying Lizard|Porsche|19|4|4|Pirelli
+2|Corvette Racing|Chevy|20|3|3|Goodyear
+3|BMW Motorsports|BMW|19|1|1|Brigestone
+sqlite> 
+
+
+
+
+
+sqlite> SELECT race_team.name, tire_supplier.name FROM race_team JOIN tire_supplier ON race_team.supplier_id = tire_supplier.id;
+Flying Lizard|Pirelli
+Corvette Racing|Goodyear
+BMW Motorsports|Brigestone
