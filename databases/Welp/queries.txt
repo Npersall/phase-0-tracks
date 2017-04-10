@@ -1,0 +1,33 @@
+SELECT * FROM reviews
+   ...> INNER JOIN businesses
+   ...> ON businesses.id = reviews.business_id
+   ...> INNER JOIN users
+   ...> ON users.id = reviews.user_id;
+1|4|Wonderfulservice|3|3|3|Beagle Nightclub|3|Angela|Jolie
+2|1| Aweful service|5|2|5|Plumbing by Jannet|2|Mandy|Kaling
+3|3| Mediocre service|1|1|1|Grundy Hollow Wedding Chapel|1|Bradford|Pitt
+
+
+
+
+
+
+
+
+ SELECT users.first_name, users.last_name, businesses.name, reviews.stars, reviews.comment FROM ((reviews
+   ...> INNER JOIN businesses
+   ...> ON businesses.id = reviews.business_id)
+   ...> INNER JOIN users
+   ...> ON users.id = reviews.user_id);                                           Angela|Jolie|Beagle Nightclub|4|Wonderful service
+   Mandy|Kaling|Plumbing by Jannet|1| Aweful service
+   Bradford|Pitt|Grundy Hollow Wedding Chapel|3| Mediocre service
+
+
+
+   sqlite> SELECT * FROM reviews 
+   ...> INNER JOIN businesses 
+   ...> ON businesses.id = reviews.business_id
+   ...> INNER JOIN users
+   ...> ON users.id = reviews.user_id 
+   ...> WHERE reviews.business_id = 1;
+3|3| Mediocre service|1|1|1|Grundy Hollow Wedding Chapel|1|Bradford|Pitt
